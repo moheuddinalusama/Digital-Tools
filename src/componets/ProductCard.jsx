@@ -49,6 +49,7 @@ const ProductCard = ({ products, cartItems, handleAddToCart, handleRemove, handl
                   </div>
                 ))}
               </div>
+            
               <div className="border-t pt-6">
                 <div className="flex justify-between text-xl font-bold mb-6">
                   <span className='text-black'>Total Amount:</span>
