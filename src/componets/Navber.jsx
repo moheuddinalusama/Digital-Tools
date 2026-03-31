@@ -26,7 +26,7 @@ const Navber = ({ cartCount }) => {
 
 
                     <div className="navbar-center hidden lg:flex">
-                        <ul className="menu menu-horizontal px-1 font-semibold gap-2">
+                        <ul className="menu menu-horizontal text-black px-1 font-semibold gap-2">
                             <li><a className="hover:text-[#4F39F6]">Products</a></li>
                             <li><a className="hover:text-[#4F39F6]">Features</a></li>
                             <li><a className="hover:text-[#4F39F6]">Pricing</a></li>
@@ -42,12 +42,12 @@ const Navber = ({ cartCount }) => {
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
                             </svg>
-                            <span className="badge badge-sm indicator-item font-bold bg-amber-400 text-white border-none">
+                            <span className="badge badge-sm indicator-item font-bold bg-amber-700  border-none">
                                 {cartCount}
                             </span>
                         </div>
 
-                        <p className="hidden md:block font-semibold cursor-pointer">Login</p>
+                        <p className="hidden md:block font-semibold cursor-pointer text-black">Login</p>
 
                         <button className='btn btn-sm md:btn-md rounded-full bg-gradient-to-r from-[#4F39F6] to-[#9514FA] border-none text-white font-bold px-4 md:px-8 hover:opacity-90'>
                             Get Started

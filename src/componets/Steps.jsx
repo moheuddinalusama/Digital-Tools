@@ -6,7 +6,7 @@ const Steps = () => {
     return (
         <div>
             <div className="text-center mt-30 mb-10">
-                <h3 className='text-3xl font-bold'>Get Started in 3 Steps</h3>
+                <h3 className='text-3xl text-black font-bold'>Get Started in 3 Steps</h3>
                 <p className='text-gray-600'>Start using premium digital tools in minutes, not hours.</p>
             </div>
             <div className=" grid grid-cols-1 md:grid-cols-3 gap-4 px-40 ">

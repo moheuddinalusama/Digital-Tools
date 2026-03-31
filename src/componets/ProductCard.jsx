@@ -32,7 +32,7 @@ const ProductCard = ({ products, cartItems, handleAddToCart, handleRemove, handl
       ) : (
       
         <div className=" mx-auto bg-white p-8 rounded shadow-2xl border border-green-500">
-          <h2 className="text-2xl font-bold mb-6">Your Selected Products</h2>
+          <h2 className="text-2xl text-black font-bold mb-6">Your Selected Products</h2>
           {cartItems.length > 0 ? (
             <>
               <div className="space-y-4 mb-8">
@@ -41,8 +41,8 @@ const ProductCard = ({ products, cartItems, handleAddToCart, handleRemove, handl
                     <div className="flex items-center gap-4">
                       <span className="text-3xl">{item.icon}</span>
                       <div>
-                        <h4 className="font-bold text-xl">{item.name}</h4>
-                        <p className="text-sm text-gray-500">${item.price}</p>
+                        <h4 className="font-bold text-black text-xl">{item.name}</h4>
+                        <p className="text-md font-bold text-gray-500">${item.price}</p>
                       </div>
                     </div>
                     <button onClick={() => handleRemove(item.id)} className="text-red-500 font-medium hover:underline hover:bg-red-200 px-6 py-1 rounded-4xl">Remove</button>
@@ -51,8 +51,8 @@ const ProductCard = ({ products, cartItems, handleAddToCart, handleRemove, handl
               </div>
               <div className="border-t pt-6">
                 <div className="flex justify-between text-xl font-bold mb-6">
-                  <span>Total Amount:</span>
-                  <span>${totalPrice}</span>
+                  <span className='text-black'>Total Amount:</span>
+                  <span className='text-black'>${totalPrice}</span>
                 </div>
                 <button onClick={handleCheckout} className="w-full bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white py-4 rounded-xl font-bold hover:bg-purple-700 transition">
                   Proceed To Checkout
