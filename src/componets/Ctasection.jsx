@@ -2,7 +2,7 @@ import React from 'react';
 
 const Ctasection = () => {
     return (
-        <section className=" bg-gradient-to-r from-[#4F39F6] to-[#9514FA] py-20 px-20 mt-12  md:mx-auto">
+        <section className=" bg-gradient-to-r from-[#4F39F6] to-[#9514FA] mt-2 md:py-20 px-20 md:mt-12  md:mx-auto">
             <div className="flex flex-col items-center text-center space-y-8">
                 
                 <h2 className="text-3xl md:text-5xl font-bold text-white ">
