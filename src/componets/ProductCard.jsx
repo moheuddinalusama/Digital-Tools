@@ -41,7 +41,7 @@ const ProductCard = ({ products, cartItems, handleAddToCart, handleRemove, handl
                     <div className="flex items-center gap-4">
                       <span className="text-3xl">{item.icon}</span>
                       <div>
-                        <h4 className="font-bold text-black text-xl">{item.name}</h4>
+                        <h4 className=" font-bold text-md text-black md:text-xl">{item.name}</h4>
                         <p className="text-md font-bold text-gray-500">${item.price}</p>
                       </div>
                     </div>

@@ -24,7 +24,7 @@ const Card = ({ product, handleAddToCart, cartItems }) => {
   };
 
   return (
-    <div className="bg-white p-6 rounded border border-gray-100 shadow-sm hover:shadow-md transition">
+    <div className="bg-white p-6 rounded border border-blue-500/50 shadow-sm hover:shadow-md transition">
       <div className="relative mb-6">
         <div className="w-16 h-16 bg-purple-50 rounded-2xl flex items-center justify-center text-3xl">
           {product.icon}
@@ -38,7 +38,7 @@ const Card = ({ product, handleAddToCart, cartItems }) => {
       <p className="text-gray-500 text-sm mb-4 line-clamp-2">{product.description}</p>
       
       <div className="flex items-baseline gap-1 mb-6">
-        <span className="text-xl font-black">${product.price}</span>
+        <span className="text-xl text-black font-black">${product.price}</span>
         <span className="text-gray-400 text-sm font-medium">/{product.period}</span>
       </div>
 
