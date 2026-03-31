@@ -35,7 +35,7 @@ const Discrption = () => {
                             <button className="btn btn-md md:btn-lg rounded-full bg-gradient-to-r from-[#4F39F6] to-[#9514FA] border-none text-white font-bold px-8 shadow-lg hover:scale-105 transition-transform">
                                 Explore Products
                             </button>
-                            <button className="btn btn-md md:btn-lg btn-outline border-2 border-[#4F39F6] text-[#4F39F6] rounded-full px-6 hover:bg-[#4F39F6] hover:text-white transition-all">
+                            <button className="btn btn-md md:btn-lg btn-outline border-2 bg-gradient-to-r from-[#4F39F6] to-[#9514FA] rounded-full px-6 hover:bg-[#4F39F6] hover:text-white transition-all">
                                 <MdOutlinePlayArrow className="size-6 mr-1" /> Watch Demo
                             </button>
                         </div>
