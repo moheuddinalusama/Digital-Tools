@@ -3,7 +3,7 @@ import './App.css'
 import { useState } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
+// my live link problem
 import Navbar from './componets/navber';
 import Banner from './componets/Discrption';
 import Board from './componets/Bord';
@@ -13,15 +13,11 @@ import Pament from './componets/Pament';
 import PricingHeader from './componets/Discription2';
 import Ctasection from './componets/Ctasection';
 import Footer from './componets/Footer';
-
-// JSON Data
 import productsData from '../public/Card.json';
 import pamentData from '../public/Pament.json';
 
 function App() {
   const [cartItems, setCartItems] = useState([]);
-
-  // Add to Cart
   const handleAddToCart = (product) => {
     const isExist = cartItems.find(item => item.id === product.id);
     if (!isExist) {
@@ -32,13 +28,12 @@ function App() {
     }
   };
 
-  // Remove from Cart
+
   const handleRemove = (id) => {
     setCartItems(cartItems.filter(item => item.id !== id));
     toast.error("Item removed from cart.");
   };
 
-  // Checkout
   const handleCheckout = () => {
     setCartItems([]);
     toast.info("Checkout complete! Cart cleared.");
@@ -54,7 +49,7 @@ function App() {
         <Banner />
         <Board />
         
-        {/* মেইন সেকশন: টগলিং এবং প্রোডাক্ট/কার্ট ডিসপ্লে */}
+        {/* disply after ar wark */}
         <ProductCard 
           products={productsData}
           cartItems={cartItems}
