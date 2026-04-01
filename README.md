@@ -1,16 +1,19 @@
-# React + Vite
+প্রজেক্টের নাম (Name of your Project): DigiTools – একটি আধুনিক ডিজিটাল মার্কেটপ্লেস প্ল্যাটফর্ম।
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+সংক্ষিপ্ত বর্ণনা  DigiTools হলো একটি React-ভিত্তিক ওয়েব অ্যাপ্লিকেশন, যেখানে ব্যবহারকারীরা প্রিমিয়াম ডিজিটাল টুলস, ডিজাইন অ্যাসেটস এবং প্রোডাক্টিভিটি সফটওয়্যার। খুব সহজেই ব্রাউজ করতে এবং কার্টে যোগ করতে পারেন। এটি ডেভেলপার এবং ডিজাইনারদের জন্য প্রয়োজনীয় রিসোর্স খুঁজে পাওয়ার একটি সহজ মাধ্যম।
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
+ব্যবহৃত টেকনোলজি React.js (Frontend Library)
+Tailwind CSS (Styling)
+DaisyUI (Component Library)
+React Icons (Icons)
+Vite (Build Tool)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+৩টি বিশেষ বৈশিষ্ট্য 
+
+ ১. ডায়নামিক ট্যাগ সিস্টেম: প্রতিটি প্রোডাক্টের প্রয়োজন অনুযায়ী আলাদা আলাদা কালারফুল ট্যাগ (যেমন: New, Popular, Best Seller) যা ইউজারকে দ্রুত সিদ্ধান্ত নিতে সাহায্য করে। 
+২. ইন্টারেক্টিভ শপিং কার্ট: কোনো রিফ্রেশ ছাড়াই রিয়েল-টাইমে প্রোডাক্ট কার্টে যোগ করার সুবিধা এবং 'Added to Cart' ফিডব্যাক দেয়। 
+৩. পুরোপুরি রেসপন্সিভ ডিজাইন: মোবাইল, এবং ডেস্কটপ সব ধরনের ডিভাইসের জন্য পারফেক্টলি অপ্টিমাইজড এবং আধুনিক ইউজার ইন্টারফেস দেয়।
