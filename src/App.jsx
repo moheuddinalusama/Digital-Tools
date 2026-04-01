@@ -3,7 +3,8 @@ import './App.css'
 import { useState } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-// my live link problem
+
+
 import Navbar from './componets/navber';
 import Banner from './componets/Discrption';
 import Board from './componets/Bord';
@@ -48,8 +49,6 @@ function App() {
       <main>
         <Banner />
         <Board />
-        
-        {/* disply after ar wark */}
         <ProductCard 
           products={productsData}
           cartItems={cartItems}
